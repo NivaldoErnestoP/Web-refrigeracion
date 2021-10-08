@@ -1,0 +1,315 @@
+
+.div_class{
+  border: 5px solid #000;    
+}
+.article-02{
+    margin-top: 50px;
+}
+
+.title-style{
+    text-transform: capitalize;
+    text-shadow: 0px 0px 3px #0c0c0c;
+    color: #0d6efd;
+    font-size: 38px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.cont{
+    color: #000;
+}
+.servicio01{
+    color: #0d6efd;
+}
+.cover-img-article{
+    background-image: url('/Web/img/electrician-with-screwdriver-repairing-air-conditioner-indoors_35076-3616.jpg');
+    background-size: cover;
+    height: 40rem;
+    background-repeat: no-repeat;  
+    margin-top: 50px;
+    flex-wrap: nowrap;
+    display: flex;
+    border: 1px solid #000;
+    text-align: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.article03{
+   font: 600;
+   font-size: 28px;
+}
+.article-div{
+    background: rgba(1, 12, 41, 0.797);
+}
+.bef{
+    text-decoration: none;
+    list-style: none;
+}
+label{
+    font-size: 22px;
+}
+
+.footer_div{
+height: 200px;
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+width: 100%;
+align-items: center;
+flex-wrap: nowrap;
+
+}
+.li_fot{
+    list-style: none;
+    text-align: center;
+}
+.foot{
+    background-color: rgb(31, 45, 70);
+    margin-top: 100px;
+    height: 275px;
+    
+}
+.hr{
+    background-color: #fff;
+    color: #fff;
+}
+.link{
+        color: #fff;
+}
+
+
+/*responsi*/
+/*menor de 320px */
+@media(max-width:801px){
+    
+   .bef{
+       font-size: 16px;
+   }
+   .article03{
+       font-size: 20px;
+       text-shadow: 0px 0px 8px rgb(200, 200, 200);
+   }
+   .article-div{
+       width: 300px;
+   }
+   .li-h:hover{
+       background-color: #0d6efd;
+      
+   }
+   .link_a01:hover{
+       color: #ffffff !important;
+   }
+   .div_mod{
+       text-align: end;
+       width: 100%;
+       padding: 10px;
+   }
+   .title-img-01{
+       font-size: 26px;
+
+   }
+   .div_back-header{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding: 10px;
+       align-items: center;
+      background-image: url("../img/repa.jpg");
+      background-size: cover;
+      height:  400px;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+   .li-h{
+       width: 100%;
+       text-align: center;
+       padding: 5px;
+       margin: 5px;
+   }
+ 
+   .title_navbar{
+       width: 85%;
+       text-align: end;
+
+   }
+   
+
+   .link_a01,.title_nav{
+    color: #0d6efd !important;
+
+}
+.title_nav{
+    font-size: 20px;
+    
+}
+   
+.img_title{
+    display: none;
+} 
+ 
+
+}
+/*menor de 300px*/
+@media (max-width:410px){
+    .title_navbar{
+        display: none;
+    }
+    .title_nav{
+       display: none; 
+    }
+    .div_back-header{
+        display: none;
+    }
+    .servicio01{
+        font-size: 13px;
+        
+    }
+    .article-02{
+        transform: translateY(-50px);
+    }
+    .icon_img,#face, #inst, #tw{
+        display: none;
+    }
+    .article-div{
+        width: 120%;
+    }
+    .bef,.article03{
+       font-size: 11px;
+    }
+
+   label,.info_01{
+       font-size: 15px;
+       
+   }  
+
+   footer{
+       overflow: hidden;
+   }
+   .errorCampos{
+    font-size: 12px !important;
+
+}
+
+.errorCampos{
+    background-color: none !important;
+
+        
+}
+
+
+}
+/*mayor de 768*/
+@media(min-width:800px){
+
+.nav_ul{
+    transform: translateX(-80px);
+}
+
+    .li-h{
+        border: none !important;
+    }
+    .phone{
+        border: none !important;
+        
+    }
+    .div_back-header{
+        position: absolute;
+        top: 1;
+        bottom: 0;
+        left: 0;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 20px;
+    
+    }
+.link_a01,.title_nav{
+    color: #0d6efd !important;
+}
+
+.title_navbar{
+    width: 60%;
+    text-align: center;
+    padding: 5px;
+}
+.mensaje_01{
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+.info_01{
+    font-size: 22px;
+    letter-spacing: 2px;
+ }
+
+ 
+}
+
+/*----------------*/
+
+
+label{
+    color: #0d6efd;
+}
+
+.div_error{
+    display: flex;
+    justify-content: center;
+
+}
+.correcto02{
+    
+}
+.div_correcto02{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.correcto{
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+.div_correcto{
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+}
+.vacio{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.error{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.nameErr{
+    font-size: 15px;
+    border: none;
+    background: none;
+    color: rgb(255, 0, 0);
+}
+.emailErr{
+    
+    font-size: 15px;
+    border: none;
+    background: none;
+    color: rgb(255, 0, 0);
+
+}
+.div_error2{
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+
+}
+.errorCampos{
+    font-size: 20px;
+}
+
